@@ -2,7 +2,6 @@ package com.pedido.business.usecases;
 
 import com.pedido.business.gateways.Repository;
 import com.pedido.business.generic.DomainEvent;
-import com.pedido.domain.command.CreateProductCommand;
 import com.pedido.domain.command.CreatePromoCommand;
 import com.pedido.domain.events.ProductCreated;
 import com.pedido.domain.events.PromoCreated;
@@ -60,7 +59,7 @@ class CreatePromoUseCaseNoReactivoTest {
 
         Mockito.when(repository.findByIdNoReactivo(PRODUCT_ID)).thenReturn(List.of(event));
 
-        Mockito.when(repository.saveEventNoReactivo(ArgumentMatchers.any()))
+        Mockito.when(repository.saveEventNoReactivo(ArgumentMatchers.any(ProductCreated.class)))
                 .thenAnswer(invocationOnMock -> {
                     return invocationOnMock.getArgument(0);
                 });
