@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46eb7b2f-29c1-4f11-9c9d-46a2252ca2e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/gateways/DomainEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/gateways/EventBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/gateways/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/AggregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/ChangeEventSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/EventChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/Identity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/UseCaseForCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/UseCaseForCommandNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/UseCaseForEventNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/generic/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/AddPercentPromoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/AddPercentPromoUseCaseNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreateOrderUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreateOrderUseCaseNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreateProductUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreateProductUseCaseNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreatePromoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/business/usecases/CreatePromoUseCaseNoReactivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/OrderEventChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/ProductEventChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/Promo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/command/AddPercentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/command/CreateOrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/command/CreateProductCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/command/CreatePromoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/events/AddedPercent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/events/OrderCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/events/ProductCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/events/PromoCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/CartId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/CreationDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/OrderId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Percent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/PromoId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/mundoverde/domain/values/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/AddPercentPromoUseCaseNoReactivoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/AddPercentPromoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreateOrderUseCaseNoReactivoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreateOrderUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreateProductUseCaseNoReactivoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreateProductUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreatePromoUseCaseNoReactivoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/mundoverde/business/usecases/CreatePromoUseCaseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M70iKJk5t4yD5ftgf4bqY3yziW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/liced.rodriguez/IdeaProjects/MundoVerde1/src/test/java/co/com/mundoverde/business/usecases"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liced.rodriguez\IdeaProjects\MundoVerde1\src\test\java\co\com\mundoverde\business\usecases" />
+      <recent name="C:\Users\liced.rodriguez\IdeaProjects\MundoVerde1\src\main\java\co\com\mundoverde\domain" />
+      <recent name="C:\Users\liced.rodriguez\IdeaProjects\MundoVerde1\src\main\java\co\com\mundoverde\business" />
+      <recent name="C:\Users\liced.rodriguez\IdeaProjects\MundoVerde1\src\main\java\co\com\mundoverde\business\generic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.com.mundoverde.business.usecases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateOrderUseCaseTest">
+    <configuration name="AddPercentPromoUseCaseNoReactivoTest.successFullScenarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MundoVerde1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.mundoverde.business.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.mundoverde.business.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.mundoverde.business.usecases.AddPercentPromoUseCaseNoReactivoTest" />
+      <option name="METHOD_NAME" value="successFullScenarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddPercentPromoUseCaseTest.seccessFullScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MundoVerde1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.mundoverde.business.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.mundoverde.business.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.mundoverde.business.usecases.AddPercentPromoUseCaseTest" />
+      <option name="METHOD_NAME" value="seccessFullScenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderUseCaseNoReactivoTest.SuccessFullScenarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MundoVerde1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.mundoverde.business.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.mundoverde.business.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.mundoverde.business.usecases.CreateOrderUseCaseNoReactivoTest" />
+      <option name="METHOD_NAME" value="SuccessFullScenarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MundoVerde1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.mundoverde.business.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.mundoverde.business.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.mundoverde.business.usecases.CreateOrderUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatePromoUseCaseTest.successFullScenarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MundoVerde1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.mundoverde.business.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.mundoverde.business.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.mundoverde.business.usecases.CreatePromoUseCaseTest" />
+      <option name="METHOD_NAME" value="successFullScenarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateOrderUseCaseTest" />
+        <item itemvalue="JUnit.CreateOrderUseCaseNoReactivoTest.SuccessFullScenarios" />
+        <item itemvalue="JUnit.AddPercentPromoUseCaseTest.seccessFullScenario" />
+        <item itemvalue="JUnit.AddPercentPromoUseCaseNoReactivoTest.successFullScenarios" />
+        <item itemvalue="JUnit.CreatePromoUseCaseTest.successFullScenarios" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46eb7b2f-29c1-4f11-9c9d-46a2252ca2e1" name="Changes" comment="" />
+      <created>1677103441104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677103441104</updated>
+    </task>
+    <servers />
+  </component>
+</project>
