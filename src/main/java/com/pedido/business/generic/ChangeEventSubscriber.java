@@ -13,7 +13,8 @@ public class ChangeEventSubscriber {
 
     private final Set<Consumer<? super DomainEvent>> observables = new HashSet<>();
 
-    public List<DomainEvent> changes() { return changes; }
+    public List<DomainEvent> changes() {
+        return changes; }
 
     public final ChangeApply appendChange(DomainEvent event){
         changes.add(event);

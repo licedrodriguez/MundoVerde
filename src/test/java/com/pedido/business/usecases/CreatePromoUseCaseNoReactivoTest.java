@@ -57,14 +57,20 @@ class CreatePromoUseCaseNoReactivoTest {
                 , new Description(DESCRIPTION), new PromoId(PROMO_ID), new Percent(PERCENT));
         event.setAggregateRootId(PRODUCT_ID);
 
-        Mockito.when(repository.findByIdNoReactivo(PRODUCT_ID)).thenReturn(List.of(event));
+        Repository repositorioMock = Mockito.mock(Repository.class);
+        useCase = new CreatePromoUseCaseNoReactivo(repositorioMock);
 
-        Mockito.when(repository.saveEventNoReactivo(ArgumentMatchers.any(ProductCreated.class)))
-                .thenAnswer(invocationOnMock -> {
-                    return invocationOnMock.getArgument(0);
-                });
+        Mockito.when(repositorioMock.findByIdNoReactivo(PRODUCT_ID)).thenReturn(List.of(event));
+
+        Mockito.when(repositorioMock.saveEventNoReactivo(ArgumentMatchers.any(PromoCreated.class))).thenAnswer(invocationOnMock -> {
+            return (DomainEvent) invocationOnMock.getArgument(0);
+        });
+
+
 
         List<DomainEvent> result = useCase.apply(command);
+
+        Mockito.verify(repositorioMock, Mockito.times(1)).saveEventNoReactivo(Mockito.any());
 
         Assertions.assertEquals(command.getProductId(), result.get(0).aggregateRootId());
         Assertions.assertInstanceOf(PromoCreated.class, result.get(0));
